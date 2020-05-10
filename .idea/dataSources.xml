@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails stimulus-reflex-test: production" uuid="66adceca-10d1-44fd-8e38-0418d122763c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/stimulus_reflex_test_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails stimulus-reflex-test: development" uuid="307ef482-16cd-4344-968f-c2871fd1c84b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/stimulus_reflex_test_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails stimulus-reflex-test: test" uuid="33175e49-0eca-4b89-8643-2633b8f061e1">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/stimulus_reflex_test_test</jdbc-url>
+    </data-source>
+  </component>
+</project>

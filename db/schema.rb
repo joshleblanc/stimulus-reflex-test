@@ -12,11 +12,8 @@
 
 ActiveRecord::Schema.define(version: 2020_05_07_143707) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "bars", force: :cascade do |t|
-    t.bigint "foo_id", null: false
+    t.integer "foo_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "name"

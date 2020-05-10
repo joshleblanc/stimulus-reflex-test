@@ -15,17 +15,13 @@
 # gem 'pg'
 #
 default: &default
-  adapter: postgresql
-  encoding: unicode
-  # For details on connection pooling, see Rails configuration guide
-  # https://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: postgres
-  password: postgres
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
 
 development:
   <<: *default
-  database: stimulus_reflex_test_development
+  database: db/stimulus_reflex_test_development.sqlite3
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.

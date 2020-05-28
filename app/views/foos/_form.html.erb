@@ -17,7 +17,7 @@
   </div>
 
   <%= form.fields_for :bars do |bar_fields| %>
-    <%= bar_fields.text_area :name %>
+    <%= bar_fields.text_area :name, data: { reflex: "change->FooReflex#handle_change"} %>
   <% end %>
 
   <button data-reflex="click->FooReflex#add_bar" data-foo="<%= foo %> %>">Add Bar</button>
